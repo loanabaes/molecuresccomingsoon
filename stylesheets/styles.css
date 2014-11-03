@@ -1,0 +1,85 @@
+/*
+	Project: Landing Page - moleCures
+	Site:    molecures.com;
+	Version: 0.0.1;
+	Author:  LaunchPad Lab;
+*/
+
+
+/* Colors
+	Black:      #333333;
+	Grey:       #F0F0F0;
+	Green:      #8CB35A;
+	Dark Green: #4E6B28;
+*/
+
+
+/* Global Styles */
+
+html, body{
+	background-color: #8CB35A;
+	font-family: "Open Sans" Helvetica, sans-serif;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-weight: 800;
+	line-height: normal;
+}
+
+h1{ font-size: 55px; }
+h2{ font-size: 40px; }
+h3{ font-size: 32px; }
+h4{ font-size: 25px; }
+h5{ font-size: 18px; }
+h6{ font-size: 12px; }
+
+p{
+	font-weight: 400;
+	font-size: 14px;
+	line-height: normal;
+}
+
+a{
+	color: #FFFFFF	;
+	text-decoration: none;
+	-webkit-transition: all 0.3s ease-in;
+	-moz-transition:    all 0.3s ease-in;
+	transition:         all 0.3s ease-in;
+}
+
+a:hover{
+	opacity: 0.6;
+}
+
+/* Landing Page Layout */
+.header-container{
+	text-align: center;
+	margin: 15% auto 0px;
+}
+
+.header-container h1{ 
+	color: #FFFFFF; 
+	-webkit-text-shadow: 1px -1px 1px #4E6B28;
+	-moz-text-shadow:    1px -1px 1px #4E6B28;
+	text-shadow:         1px -1px 1px #4E6B28;
+}
+
+.main-body-container{
+	text-align: center;
+	margin: 30px auto 0;	
+}
+
+.main-body-container h3{
+	color: #FFFFFF;
+	font-weight: 400;
+	text-transform: uppercase;
+	-webkit-text-shadow: 1px -1px 1px #4E6B28;
+	-moz-text-shadow:    1px -1px 1px #4E6B28;
+	text-shadow:         1px -1px 1px #4E6B28;
+}
+
+.main-body-container p{
+	margin: 25px auto 0;
+}
