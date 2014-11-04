@@ -17,7 +17,7 @@
 /* Global Styles */
 
 html, body{
-	background-color: #8CB35A;
+	background-color: #FFFFFF;
 	font-family: "Open Sans" Helvetica, sans-serif;
 	margin: 0 auto;
 	padding: 20px;
@@ -42,7 +42,7 @@ p{
 }
 
 a{
-	color: #FFFFFF	;
+	color: #8CB35A	;
 	text-decoration: none;
 	-webkit-transition: all 0.3s ease-in;
 	-moz-transition:    all 0.3s ease-in;
@@ -56,14 +56,7 @@ a:hover{
 /* Landing Page Layout */
 .header-container{
 	text-align: center;
-	margin: 15% auto 0px;
-}
-
-.header-container h1{ 
-	color: #FFFFFF; 
-	-webkit-text-shadow: 1px -1px 1px #4E6B28;
-	-moz-text-shadow:    1px -1px 1px #4E6B28;
-	text-shadow:         1px -1px 1px #4E6B28;
+	margin: 10% auto 0px;
 }
 
 .main-body-container{
@@ -72,12 +65,9 @@ a:hover{
 }
 
 .main-body-container h3{
-	color: #FFFFFF;
-	font-weight: 400;
+	color: #8CB35A;
+	font-weight: 800;
 	text-transform: uppercase;
-	-webkit-text-shadow: 1px -1px 1px #4E6B28;
-	-moz-text-shadow:    1px -1px 1px #4E6B28;
-	text-shadow:         1px -1px 1px #4E6B28;
 }
 
 .main-body-container p{
